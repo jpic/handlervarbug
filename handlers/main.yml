@@ -1,0 +1,4 @@
+---
+
+- name: touch myvar
+  shell: touch /tmp/{{ myvar }}

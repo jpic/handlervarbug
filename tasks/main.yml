@@ -1,0 +1,7 @@
+---
+
+- debug: var=myvar
+  changed_when: true
+  notify: touch myvar
+
+- meta: flush_handlers
